@@ -1,7 +1,7 @@
 #include "Ground.h"
 
 const float SCALE = 30.f;
-const float WALL_THICKNESS = 1.9f;
+const float WALL_GROSOR = 1.9f;
 
 Ground::Ground(b2World& world, float width, float height) {
 
@@ -33,21 +33,21 @@ Ground::Ground(b2World& world, float width, float height) {
     b2BodyDef leftWallBodyDef;
     leftWallBodyDef.position.Set(0.f, 0.f);
     b2Body* leftWallBody = world.CreateBody(&leftWallBodyDef);
-    wallShape.SetAsBox(WALL_THICKNESS / 2, height / (2 * SCALE), b2Vec2(WALL_THICKNESS / 2, height / (2 * SCALE)), 0);
+    wallShape.SetAsBox(WALL_GROSOR / 2, height / (2 * SCALE), b2Vec2(WALL_GROSOR / 2, height / (2 * SCALE)), 0);
     leftWallFixture.shape = &wallShape;
     leftWallBody->CreateFixture(&leftWallFixture);
-    ground[1].setSize(sf::Vector2f(WALL_THICKNESS * SCALE, height));
+    ground[1].setSize(sf::Vector2f(WALL_GROSOR * SCALE, height));
     ground[1].setPosition(0.f, 0.f);
 
     //Borde derecho /!/Tengo un pequeño inconveniente con este borde, la colisión parece estar desplazada mas hacia afuera o hay un problema con la colision de la caja para este borde
     b2BodyDef rightWallBodyDef;
     rightWallBodyDef.position.Set(0.f, 0.f);
     b2Body* rightWallBody = world.CreateBody(&rightWallBodyDef);
-    wallShape.SetAsBox(WALL_THICKNESS / 2, height / (2 * SCALE), b2Vec2((width - WALL_THICKNESS) / SCALE, height / (2 * SCALE)), 0);
+    wallShape.SetAsBox(WALL_GROSOR / 2, height / (2 * SCALE), b2Vec2((width - WALL_GROSOR) / SCALE, height / (2 * SCALE)), 0);
     rightWallFixture.shape = &wallShape;
     rightWallBody->CreateFixture(&rightWallFixture);
-    ground[2].setSize(sf::Vector2f(WALL_THICKNESS * SCALE, height));
-    ground[2].setPosition(width - (WALL_THICKNESS * SCALE), 0.f);
+    ground[2].setSize(sf::Vector2f(WALL_GROSOR * SCALE, height));
+    ground[2].setPosition(width - (WALL_GROSOR * SCALE), 0.f);
 
     for (int i = 0; i < 3; i++) {
         ground[i].setFillColor(sf::Color::White);
