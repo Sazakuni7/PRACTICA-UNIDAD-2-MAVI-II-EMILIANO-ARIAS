@@ -1,7 +1,0 @@
-﻿  Box2dEmptyApp.cpp
-  Game.cpp
-  Generando código...
-sfml-graphics-s-d.lib(Font.cpp.obj) : warning LNK4099: no se encontró PDB '' con 'sfml-graphics-s-d.lib(Font.cpp.obj)' o en ''; se vinculará el objeto sin tener en cuenta información de depuración
-sfml-graphics-s-d.lib(Text.cpp.obj) : warning LNK4099: no se encontró PDB '' con 'sfml-graphics-s-d.lib(Text.cpp.obj)' o en ''; se vinculará el objeto sin tener en cuenta información de depuración
-sfml-window-s-d.lib(JoystickImpl.cpp.obj) : warning LNK4099: no se encontró PDB '' con 'sfml-window-s-d.lib(JoystickImpl.cpp.obj)' o en ''; se vinculará el objeto sin tener en cuenta información de depuración
-  Box2dEmptyApp.vcxproj -> C:\Users\emi_a\source\repos\MAVI II - Unidad II\Actividad I\Box2dFirstApp\Bin\Debug\Ejercicio 1.exe
