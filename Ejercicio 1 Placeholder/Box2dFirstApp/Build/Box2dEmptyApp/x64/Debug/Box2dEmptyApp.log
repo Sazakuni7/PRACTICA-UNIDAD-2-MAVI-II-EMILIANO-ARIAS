@@ -1,0 +1,14 @@
+﻿  Box2dEmptyApp.cpp
+sfml-graphics-s-d.lib(Font.cpp.obj) : warning LNK4099: no se encontró PDB '' con 'sfml-graphics-s-d.lib(Font.cpp.obj)' o en ''; se vinculará el objeto sin tener en cuenta información de depuración
+sfml-graphics-s-d.lib(RenderWindow.cpp.obj) : warning LNK4099: no se encontró PDB '' con 'sfml-graphics-s-d.lib(RenderWindow.cpp.obj)' o en ''; se vinculará el objeto sin tener en cuenta información de depuración
+sfml-graphics-s-d.lib(Texture.cpp.obj) : warning LNK4099: no se encontró PDB '' con 'sfml-graphics-s-d.lib(Texture.cpp.obj)' o en ''; se vinculará el objeto sin tener en cuenta información de depuración
+sfml-graphics-s-d.lib(Text.cpp.obj) : warning LNK4099: no se encontró PDB '' con 'sfml-graphics-s-d.lib(Text.cpp.obj)' o en ''; se vinculará el objeto sin tener en cuenta información de depuración
+sfml-system-s-d.lib(String.cpp.obj) : warning LNK4099: no se encontró PDB '' con 'sfml-system-s-d.lib(String.cpp.obj)' o en ''; se vinculará el objeto sin tener en cuenta información de depuración
+sfml-window-s-d.lib(Joystick.cpp.obj) : warning LNK4099: no se encontró PDB '' con 'sfml-window-s-d.lib(Joystick.cpp.obj)' o en ''; se vinculará el objeto sin tener en cuenta información de depuración
+sfml-window-s-d.lib(JoystickManager.cpp.obj) : warning LNK4099: no se encontró PDB '' con 'sfml-window-s-d.lib(JoystickManager.cpp.obj)' o en ''; se vinculará el objeto sin tener en cuenta información de depuración
+sfml-window-s-d.lib(Window.cpp.obj) : warning LNK4099: no se encontró PDB '' con 'sfml-window-s-d.lib(Window.cpp.obj)' o en ''; se vinculará el objeto sin tener en cuenta información de depuración
+sfml-window-s-d.lib(WindowImpl.cpp.obj) : warning LNK4099: no se encontró PDB '' con 'sfml-window-s-d.lib(WindowImpl.cpp.obj)' o en ''; se vinculará el objeto sin tener en cuenta información de depuración
+sfml-window-s-d.lib(WglContext.cpp.obj) : warning LNK4099: no se encontró PDB '' con 'sfml-window-s-d.lib(WglContext.cpp.obj)' o en ''; se vinculará el objeto sin tener en cuenta información de depuración
+sfml-window-s-d.lib(JoystickImpl.cpp.obj) : warning LNK4099: no se encontró PDB '' con 'sfml-window-s-d.lib(JoystickImpl.cpp.obj)' o en ''; se vinculará el objeto sin tener en cuenta información de depuración
+sfml-window-s-d.lib(WindowImplWin32.cpp.obj) : warning LNK4099: no se encontró PDB '' con 'sfml-window-s-d.lib(WindowImplWin32.cpp.obj)' o en ''; se vinculará el objeto sin tener en cuenta información de depuración
+  Box2dEmptyApp.vcxproj -> C:\Users\emi_a\source\repos\MAVI II - Unidad II\Actividad I\Box2dFirstApp\Bin\Debug\Box2dEmptyApp.exe
