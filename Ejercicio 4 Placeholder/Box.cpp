@@ -5,7 +5,7 @@ const float SCALE = 30.f;
 Box::Box(b2World& world, float x, float y) {
     b2BodyDef bodyDef;
     bodyDef.type = b2_dynamicBody;
-    bodyDef.position.Set(x / SCALE, y / SCALE);
+    bodyDef.position.Set(x / SCALE, y / SCALE + 5);
     body = world.CreateBody(&bodyDef);
 
     float boxWidth = 1.5f;
@@ -16,7 +16,7 @@ Box::Box(b2World& world, float x, float y) {
 
     b2FixtureDef fixtureDef;
     fixtureDef.shape = &boxShape;
-    fixtureDef.density = 0.3f; //Cambiamos aquí el peso de la caja
+    fixtureDef.density = 0.2f; //Cambiamos aquí el peso de la caja
     fixtureDef.friction = 0.6f;  //Podemos probar los distintos coeficientes de rozamiento, aquí debajo dejo unos ejemplos
     /* hielo sobre hielo 0, 02
        cuero sobre madera 0, 3 - 0, 4

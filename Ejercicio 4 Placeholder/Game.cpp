@@ -1,9 +1,9 @@
 #include "Game.h"
 
-Game::Game() : window(sf::VideoMode(800, 600), "Box2D Friction"),
+Game::Game() : window(sf::VideoMode(1024, 768), "Emiliano Arias - Ejercicio 4 - Caja deslizante"),
 world(b2Vec2(0.f, 9.8f)) {
     window.setFramerateLimit(60);
-    ground = new Ground(world, 800, 600);
+    ground = new Ground(world, 1024, 768);
     box = new Box(world, 400.f, 555.f);
 }
 
