@@ -1,0 +1,8 @@
+﻿  Block.cpp
+  Game.cpp
+  Ground.cpp
+  Ground.h
+  main.cpp
+  Generando código...
+Ejercicio 1\x64\Debug\Ground.obj : warning LNK4042: objeto especificado más de una vez; omitidos los sobrantes
+  Ejercicio 1.vcxproj -> C:\Users\emi_a\Documents\GitHub\PRACTICA-UNIDAD-2-MAVI-II-EMILIANO-ARIAS\Ejercicio 1 Placeholder\x64\Debug\Ejercicio 1.exe
