@@ -1,1 +1,4 @@
-Por favor extraer Externos.rar (se encuentra dentro del Ejercicio 1) dentro de la carpeta de cada Ejercicio, junto con la carpeta de Box2dFirstApp. No me deja subir mas de 100 archivos a la vez así que lo hice de esta manera
+Subí los ejercicios en los que estuve trabajando originalmente.
+Antes de hacer la anterior entrega, tenía estos proyectos preparados hasta el numero 4, que fue donde me atasqué y no pude proseguir.
+
+
